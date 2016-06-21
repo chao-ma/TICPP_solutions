@@ -1,0 +1,15 @@
+14:33:54 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/ch3.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ch3.d" -MT"src/ch3.o" -o "src/ch3.o" "../src/ch3.cpp"
+Finished building: ../src/ch3.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o ./src/ch3.o   
+Finished building target: LongestChain
+ 
+
+14:33:54 Build Finished (took 803ms)
+

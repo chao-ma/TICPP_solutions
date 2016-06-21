@@ -1,0 +1,726 @@
+14:50:56 **** Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o   
+Finished building target: LongestChain
+ 
+14:55:58 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+make: Nothing to be done for `all'.
+14:56:03 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+make: Nothing to be done for `all'.
+14:56:12 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o   
+Finished building target: LongestChain
+ 
+15:00:57 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o   
+Finished building target: LongestChain
+ 
+15:07:26 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o   
+Finished building target: LongestChain
+ 
+15:24:59 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+In file included from ../src/LongestChain.cpp:10:
+../src/Searcher.h:12:11: error: array has incomplete element type 'int []'
+        int grid_[][];
+                 ^
+../src/Searcher.h:13:12: error: array has incomplete element type 'int []'
+        int cache_[][];
+                  ^
+../src/Searcher.h:15:37: error: array has incomplete element type 'const int []'
+        LongestChainSearcher(const int grid[][], int nRow, int nCol);
+                                           ^
+../src/LongestChain.cpp:15:10: error: array has incomplete element type 'int []'
+        int grid[][] = {
+                ^
+4 errors generated.
+make: *** [src/LongestChain.o] Error 1
+15:25:15 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+In file included from ../src/LongestChain.cpp:10:
+../src/Searcher.h:12:11: error: array has incomplete element type 'int []'
+        int grid_[][];
+                 ^
+../src/Searcher.h:13:12: error: array has incomplete element type 'int []'
+        int cache_[][];
+                  ^
+../src/Searcher.h:15:37: error: array has incomplete element type 'const int []'
+        LongestChainSearcher(const int grid[][], int nRow, int nCol);
+                                           ^
+3 errors generated.
+make: *** [src/LongestChain.o] Error 1
+15:28:04 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+../src/Searcher.cpp:9:58: error: array has incomplete element type 'const int []'
+LongestChainSearcher::LongestChainSearcher(const int grid[][], int nRow, int nCol) {
+                                                         ^
+../src/Searcher.cpp:13:25: error: only the first dimension of an allocated array may have dynamic size
+        cache_ = new int[nRow][nCol];
+                               ^~~~
+../src/Searcher.cpp:13:25: note: read of non-const variable 'nCol' is not allowed in a constant expression
+../src/Searcher.cpp:9:78: note: declared here
+LongestChainSearcher::LongestChainSearcher(const int grid[][], int nRow, int nCol) {
+                                                                             ^
+2 errors generated.
+make: *** [src/Searcher.o] Error 1
+15:28:43 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+15:29:34 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+../src/Searcher.cpp:9:23: error: constructor for 'LongestChainSearcher' must explicitly initialize the const member 'nRow_'
+LongestChainSearcher::LongestChainSearcher(const int** grid, int nRow, int nCol) {
+                      ^
+../src/Searcher.h:11:12: note: declared here
+        const int nRow_, nCol_;
+                  ^
+../src/Searcher.cpp:9:23: error: constructor for 'LongestChainSearcher' must explicitly initialize the const member 'nCol_'
+LongestChainSearcher::LongestChainSearcher(const int** grid, int nRow, int nCol) {
+                      ^
+../src/Searcher.h:11:19: note: declared here
+        const int nRow_, nCol_;
+                         ^
+../src/Searcher.cpp:10:8: error: read-only variable is not assignable
+        nRow_ = nRow;
+        ~~~~~ ^
+../src/Searcher.cpp:11:8: error: read-only variable is not assignable
+        nCol_ = nCol;
+        ~~~~~ ^
+4 errors generated.
+make: *** [src/Searcher.o] Error 1
+15:30:42 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+In file included from ../src/Searcher.cpp:7:
+../src/Searcher.h:11:12: warning: private field 'nRow_' is not used [-Wunused-private-field]
+        const int nRow_, nCol_;
+                  ^
+../src/Searcher.h:11:19: warning: private field 'nCol_' is not used [-Wunused-private-field]
+        const int nRow_, nCol_;
+                         ^
+2 warnings generated.
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+15:32:37 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+15:33:04 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+15:40:45 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+15:45:19 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:21:23: error: no matching constructor for initialization of 'LongestChainSearcher'
+        LongestChainSearcher searcher(grid, sizeof(grid) / sizeof(grid[0]), sizeof(grid[0]) / sizeof(int));
+                             ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Searcher.h:15:2: note: candidate constructor not viable: no known conversion from 'int [4][4]' to 'const int **' for 1st argument
+        LongestChainSearcher(const int** grid, int nRow, int nCol);
+        ^
+../src/Searcher.h:9:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 3 were provided
+class LongestChainSearcher {
+      ^
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+15:46:35 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:21:23: error: no matching constructor for initialization of 'LongestChainSearcher'
+        LongestChainSearcher searcher(grid, sizeof(grid) / sizeof(grid[0]), sizeof(grid[0]) / sizeof(int));
+                             ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Searcher.h:15:2: note: candidate constructor not viable: no known conversion from 'const int [4][4]' to 'const int **' for 1st argument
+        LongestChainSearcher(const int** grid, int nRow, int nCol);
+        ^
+../src/Searcher.h:9:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 3 were provided
+class LongestChainSearcher {
+      ^
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+15:47:14 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:21:23: error: no matching constructor for initialization of 'LongestChainSearcher'
+        LongestChainSearcher searcher(grid, 4, 4);
+                             ^        ~~~~~~~~~~
+../src/Searcher.h:15:2: note: candidate constructor not viable: no known conversion from 'const int [4][4]' to 'const int **' for 1st argument
+        LongestChainSearcher(const int** grid, int nRow, int nCol);
+        ^
+../src/Searcher.h:9:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 3 were provided
+class LongestChainSearcher {
+      ^
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+15:50:41 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:22:32: warning: variable 'array' is uninitialized when used here [-Wuninitialized]
+        LongestChainSearcher searcher(array, 4, 4);
+                                      ^~~~~
+../src/LongestChain.cpp:21:19: note: initialize the variable 'array' to silence this warning
+        const int** array;
+                         ^
+                          = NULL
+1 warning generated.
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+15:57:58 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:23:23: error: no matching constructor for initialization of 'LongestChainSearcher'
+        LongestChainSearcher searcher(grid, 4, 4);
+                             ^        ~~~~~~~~~~
+../src/Searcher.h:15:2: note: candidate constructor not viable: no known conversion from 'const int [4][4]' to 'const int **' for 1st argument
+        LongestChainSearcher(const int** grid, int nRow, int nCol);
+        ^
+../src/Searcher.h:9:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 3 were provided
+class LongestChainSearcher {
+      ^
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+16:06:07 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:31:23: error: no matching constructor for initialization of 'LongestChainSearcher'
+        LongestChainSearcher searcher(input, 4, 4);
+                             ^        ~~~~~~~~~~~
+../src/Searcher.h:15:2: note: candidate constructor not viable: no known conversion from 'int **' to 'const int **' for 1st argument
+        LongestChainSearcher(const int** grid, int nRow, int nCol);
+        ^
+../src/Searcher.h:9:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 3 were provided
+class LongestChainSearcher {
+      ^
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+16:07:05 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+09:56:20 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:21:14: error: cannot initialize a variable of type 'const int **' with an rvalue of type 'const int (*)[4]'
+        const int** x = &grid[0];
+                    ^   ~~~~~~~~
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+09:57:00 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:22:7: warning: unused variable 'y' [-Wunused-variable]
+        int* y = x;
+             ^
+1 warning generated.
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+09:59:08 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:21:7: error: cannot initialize a variable of type 'int *' with an lvalue of type 'const int [4][4]'
+        int* x = grid;
+             ^   ~~~~
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+09:59:15 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:21:7: error: cannot initialize a variable of type 'int *' with an lvalue of type 'const int [4][4]'
+        int* x = grid;
+             ^   ~~~~
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+09:59:26 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:21:7: error: cannot initialize a variable of type 'int *' with an lvalue of type 'const int [4]'
+        int* x = grid[0];
+             ^   ~~~~~~~
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+09:59:39 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:22:5: warning: expression result unused [-Wunused-value]
+        x[0];
+        ~ ~^
+1 warning generated.
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+09:59:49 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+09:59:58 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:00:21 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:00:26 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:01:49 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:22:12: error: array initializer must be an initializer list
+        const int y[][4] = grid;
+                  ^
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+10:05:30 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:06:00 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:06:10 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:08:19 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:09:15 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:29:11 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+../src/Searcher.cpp:8:10: fatal error: 'climits.h' file not found
+#include <climits.h>
+         ^
+1 error generated.
+make: *** [src/Searcher.o] Error 1
+10:30:37 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:32:44 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:32:54 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+../src/Searcher.cpp:30:62: error: redefinition of default argument
+int LongestChainSearcher::getMaxLength(int row, int col, int previous=INT_MIN) {
+                                                             ^        ~~~~~~~
+../src/Searcher.h:18:41: note: previous definition is here
+        int getMaxLength(int row, int col, int previous=INT_MIN);
+                                               ^        ~~~~~~~
+1 error generated.
+make: *** [src/Searcher.o] Error 1
+10:33:10 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:33:30 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:42:52 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:43:02 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/Searcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Searcher.d" -MT"src/Searcher.o" -o "src/Searcher.o" "../src/Searcher.cpp"
+Finished building: ../src/Searcher.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:43:55 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+make: Nothing to be done for `all'.
+10:44:29 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:44:40 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:44:49 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:44:56 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:50:06 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+../src/LongestChain.cpp:36:56: error: expected ';' after expression
+                maxLen = max(maxLen, searcher.getMaxLength(i, j))
+                                                                 ^
+                                                                 ;
+1 error generated.
+make: *** [src/LongestChain.o] Error 1
+10:50:16 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+10:51:10 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/LongestChain.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LongestChain.d" -MT"src/LongestChain.o" -o "src/LongestChain.o" "../src/LongestChain.cpp"
+Finished building: ../src/LongestChain.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o   
+Finished building target: LongestChain
+ 
+14:33:54 **** Incremental Build of configuration Debug for project LongestChain ****
+make all 
+Building file: ../src/ch3.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ch3.d" -MT"src/ch3.o" -o "src/ch3.o" "../src/ch3.cpp"
+Finished building: ../src/ch3.cpp
+ 
+Building target: LongestChain
+Invoking: Cross G++ Linker
+g++  -o "LongestChain"  ./src/LongestChain.o ./src/Searcher.o ./src/ch3.o   
+Finished building target: LongestChain
+ 
